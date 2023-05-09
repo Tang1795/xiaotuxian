@@ -1,0 +1,1306 @@
+            /* 网站入口：xtx-entry */
+            
+            .xtx-entry {
+                height: 500px;
+                background-color: #f5f5f5;
+            }
+            
+            .xtx-entry .container {
+                position: relative;
+                height: 500px;
+            }
+            
+            .xtx-entry .xtx-category {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 251px;
+                height: 500px;
+                background-color: rgba(0, 0, 0, .8);
+            }
+            
+            .xtx-entry .container .xtx-category li {
+                position: relative;
+                height: 50px;
+                padding-left: 36px;
+                line-height: 50px;
+            }
+            
+            .xtx-entry .container .xtx-category li:hover {
+                background-color: #27ba9b;
+            }
+            
+            .xtx-entry .container .xtx-category li a {
+                color: #fff;
+            }
+            
+            .xtx-entry .container .xtx-category li span {
+                font-size: 14px;
+            }
+            
+            .xtx-entry .container .xtx-category li a span:nth-child(1) {
+                margin-left: 15px;
+            }
+            
+            .xtx-entry .container .xtx-category li a::after {
+                position: absolute;
+                content: '';
+                top: 19px;
+                right: 19px;
+                width: 6px;
+                height: 11px;
+                background: url(../images/sprites.png) -40px -110px;
+            }
+            
+            .xtx-entry .container .prev {
+                position: absolute;
+                top: 228px;
+                left: 260px;
+                width: 45px;
+                height: 45px;
+                border-radius: 50%;
+                background: rgba(0, 0, 0, .8) url(../images/sprites.png) 12px -60px;
+            }
+            
+            .xtx-entry .container .next {
+                position: absolute;
+                top: 228px;
+                left: 1185px;
+                width: 45px;
+                height: 45px;
+                border-radius: 50%;
+                background: rgba(0, 0, 0, .8) url(../images/sprites.png) -22px -60px;
+            }
+            
+            .xtx-entry .container .indicator {
+                position: absolute;
+                width: 110px;
+                height: 10px;
+                top: 459px;
+                left: 680px;
+                /* ps */
+                /* background-color: pink; */
+            }
+            
+            .xtx-entry .container .indicator li {
+                float: left;
+                width: 10px;
+                height: 10px;
+                margin-right: 15px;
+                border-radius: 50%;
+                background-color: rgba(255, 255, 255, .43);
+            }
+            
+            .xtx-entry .container .indicator li:last-child {
+                margin-right: 0px;
+            }
+            
+            .xtx-entry .container .indicator li.active {
+                background-color: #fff;
+            }
+            /* 新鲜好物模块 */
+            
+            .xtx-new-goods {
+                height: 519px;
+                /* background-color: pink; */
+            }
+            
+            .xtx-new-goods .goods-hd {
+                position: relative;
+                height: 112px;
+                /* background-color: skyblue; */
+                line-height: 112px;
+            }
+            
+            .xtx-new-goods .goods-hd h2 {
+                height: 112px;
+                font-weight: 400;
+                font-size: 29px;
+            }
+            
+            .xtx-new-goods .goods-hd h2 span {
+                font-size: 16px;
+                color: #666;
+            }
+            
+            .xtx-new-goods .goods-hd h2 span:first-child {
+                margin-left: 34px;
+            }
+            
+            .xtx-new-goods .goods-hd a {
+                margin-right: 20px;
+                font-size: 16px;
+                color: #999;
+            }
+            
+            .xtx-new-goods .goods-hd a:after {
+                content: '';
+                position: absolute;
+                top: 50px;
+                right: 1px;
+                width: 7px;
+                height: 13px;
+                /* ps */
+                /* background-color: yellow; */
+                background: url(../images/sprites.png) 0 -110px;
+            }
+            /* 好物模块列表 */
+            
+            .xtx-new-goods .container .goods-list {
+                height: 405px;
+                /* ps */
+                /* background-color: orange; */
+            }
+            
+            .xtx-new-goods .goods-list li {
+                float: left;
+                width: 304px;
+                height: 405px;
+                margin-right: 8px;
+                background-color: #f0f9f4;
+                line-height: 1;
+                text-align: center;
+            }
+            
+            .xtx-new-goods .goods-list li:last-child {
+                margin-right: 0px;
+            }
+            
+            .xtx-new-goods .goods-list li h3 {
+                height: 40px;
+                margin-top: 22px;
+                font-size: 20px;
+                font-weight: 400;
+            }
+            
+            .xtx-new-goods .goods-list li img {
+                width: 100%;
+            }
+            
+            .xtx-new-goods .goods-list li p {
+                font-size: 23px;
+                color: #9a2e1f;
+            }
+            
+            .xtx-new-goods .goods-list li p span {
+                font-size: 17px;
+            }
+            /* 人气推荐模块 */
+            
+            .xtx-recommend {
+                height: 575px;
+                /* ps */
+                /* background-color: orange; */
+            }
+            
+            .xtx-recommend .recommend-hd {
+                height: 115px;
+                /* background-color: pink; */
+                line-height: 115px;
+            }
+            
+            .xtx-recommend .recommend-hd h2 {
+                height: 115px;
+                font-size: 29px;
+                font-weight: 400;
+            }
+            
+            .xtx-recommend .recommend-hd h2 span {
+                font-size: 16px;
+                color: #666;
+            }
+            
+            .xtx-recommend .recommend-hd h2 span:first-child {
+                margin-left: 34px;
+            }
+            
+            .xtx-recommend .recommend-list li {
+                float: left;
+                margin-right: 8px;
+                width: 304px;
+                height: 460px;
+                background-color: #fff;
+                line-height: 1;
+                text-align: center;
+            }
+            
+            .xtx-recommend .recommend-list li:last-child {
+                margin-right: 0px;
+            }
+            
+            .xtx-recommend .recommend-list li h3 {
+                height: 40px;
+                margin-top: 22px;
+                font-size: 20px;
+                font-weight: 400;
+            }
+            
+            .xtx-recommend .recommend-list li p {
+                color: #999;
+            }
+            
+            .xtx-recommend .recommend-list .recommend img {
+                width: 100%;
+            }
+            /* 热门品牌 */
+            
+            .brand-goods {
+                height: 466px;
+                background-color: #f5f5f5;
+            }
+            
+            .brand-goods .brand-goods-hd {
+                position: relative;
+                height: 115px;
+                /* background-color: yellow; */
+                line-height: 115px;
+            }
+            
+            .brand-goods .brand-goods-hd h2 {
+                height: 115px;
+                font-size: 29px;
+                font-weight: 400;
+            }
+            
+            .brand-goods .brand-goods-hd h2 span {
+                font-size: 16px;
+                color: #999999;
+            }
+            
+            .brand-goods .brand-goods-hd h2 span:first-child {
+                margin-left: 35px;
+            }
+            
+            .brand-goods .brand-goods-list .brand li {
+                float: left;
+                width: 244px;
+                height: 306px;
+                margin-right: 5px;
+                /* background-color: pink; */
+            }
+            
+            .brand-goods .brand-goods-list li:last-child {
+                margin-right: 0;
+            }
+            
+            .brand-goods .brand-goods-list li img {
+                width: 100%;
+            }
+            
+            .brand-goods .brand-goods-hd .left {
+                position: absolute;
+                top: 79px;
+                right: 33px;
+                width: 20px;
+                height: 20px;
+                background: url(../images/sprites.png) 4px -71px #e2e2e2;
+            }
+            
+            .brand-goods .brand-goods-hd .right {
+                position: absolute;
+                top: 79px;
+                right: 0px;
+                width: 20px;
+                height: 20px;
+                background: url(../images/sprites.png) -37px -71px #e2e2e2;
+            }
+            
+            .brand-goods .brand-goods-hd a:hover {
+                background-color: #27ba9b;
+            }
+            /*生鲜模块 */
+            
+            .xtx-fresh-goods {
+                height: 706px;
+                /* ps */
+                /* background-color: pink; */
+            }
+            
+            .xtx-fresh-goods .goods-hd {
+                height: 96px;
+                line-height: 96px;
+                /* ps */
+                /* background-color: yellow; */
+            }
+            
+            .xtx-fresh-goods .goods-hd h2 {
+                float: left;
+                height: 96px;
+                font-size: 29px;
+                font-weight: 400;
+            }
+            
+            .xtx-fresh-goods .goods-hd .more {
+                float: right;
+                color: #999;
+            }
+            
+            .xtx-fresh-goods .goods-hd .more::after {
+                content: '';
+                display: inline-block;
+                width: 6px;
+                height: 11px;
+                margin-left: 13px;
+                /* ps  */
+                /* background-color: violet; */
+                background: url(../images/sprites.png) 0px -111px;
+            }
+            
+            .xtx-fresh-goods .goods-hd .tabs {
+                float: right;
+                margin-right: 52px;
+            }
+            
+            .xtx-fresh-goods .goods-hd .tabs li {
+                float: left;
+            }
+            
+            .xtx-fresh-goods .goods-hd .tabs a {
+                padding: 2px 7px;
+                margin-right: 6px;
+            }
+            
+            .xtx-fresh-goods .goods-hd .tabs a:active {
+                background-color: #27ba9b;
+                color: #fff;
+            }
+            /* 图片内容 */
+            
+            .xtx-fresh-goods .goods-content {
+                height: 610px;
+                /* ps  */
+                /* background-color: skyblue; */
+            }
+            
+            .xtx-fresh-goods .goods-content .goods-pic {
+                width: 240px;
+                height: 610px;
+                /* ps */
+                background-color: red;
+            }
+            
+            .xtx-fresh-goods .goods-list {
+                width: 1000px;
+                height: 610px;
+                /* background-color: pink; */
+            }
+            
+            .xtx-fresh-goods .goods-list li {
+                position: relative;
+                float: left;
+                width: 242px;
+                height: 304px;
+                border: 2px solid transparent;
+                box-sizing: border-box;
+                margin-left: 8px;
+                margin-bottom: 3px;
+                overflow: hidden;
+                /* background-color: yellow; */
+            }
+            
+            .xtx-fresh-goods .goods-list .img-box {
+                height: 204px;
+                text-align: center;
+            }
+            
+            .xtx-fresh-goods .img-box img {
+                width: 184px;
+                height: 184px;
+                margin-top: 8px;
+            }
+            
+            .xtx-fresh-goods .info {
+                padding-left: 29px;
+                padding-right: 47px;
+                line-height: 1.2;
+            }
+            
+            .xtx-fresh-goods .info h3 {
+                font-size: 16px;
+                font-weight: 400;
+            }
+            
+            .xtx-fresh-goods .info .type {
+                height: 28px;
+            }
+            
+            .xtx-fresh-goods .info .price {
+                color: #9a2e1f;
+                font-size: 22px;
+            }
+            
+            .xtx-fresh-goods .price span {
+                font-size: 17px;
+            }
+            
+            .xtx-fresh-goods .goods-list .find {
+                position: absolute;
+                left: 0;
+                bottom: -84px;
+                width: 242px;
+                height: 84px;
+                background-color: #27ba9b;
+                line-height: 1;
+                text-align: center;
+                color: #fff;
+                transition: bottom .3s;
+            }
+            
+            .xtx-fresh-goods .goods-list li:hover {
+                border-color: #27ba9b;
+            }
+            
+            .xtx-fresh-goods .goods-list li:hover .find {
+                bottom: 0;
+            }
+            
+            .xtx-fresh-goods .find p:nth-child(1) {
+                width: 125px;
+                border-bottom: 1px solid #a9dbcc;
+                padding-bottom: 7px;
+                margin: 19px auto 0;
+                text-align: center;
+                font-size: 18px;
+            }
+            
+            .xtx-fresh-goods .find p:nth-child(2) {
+                margin-top: 8px;
+                font-size: 13px;
+            }
+            /* 服饰模块 */
+            /* 服饰头部模块 */
+            
+            .xtx-clothes-goods {
+                height: 706px;
+                /* background-color: pink; */
+            }
+            
+            .xtx-clothes-goods .clothes-goods-hd {
+                height: 96px;
+                line-height: 96px;
+                /* background-color: yellow; */
+            }
+            
+            .xtx-clothes-goods .clothes-goods-hd h2 {
+                float: left;
+                height: 96px;
+                font-size: 29px;
+                font-weight: 400;
+            }
+            
+            .xtx-clothes-goods .clothes-goods-hd .more {
+                float: right;
+            }
+            
+            .xtx-clothes-goods .clothes-goods-hd .more::after {
+                content: '';
+                display: inline-block;
+                width: 6px;
+                height: 11px;
+                margin-left: 13px;
+                /* ps */
+                /* background-color: red; */
+                background: url(../images/sprites.png) 0px -110px;
+            }
+            
+            .xtx-clothes-goods .clothes-goods-hd .tabs {
+                float: right;
+                margin-right: 52px;
+            }
+            
+            .xtx-clothes-goods .clothes-goods-hd li {
+                float: left;
+            }
+            
+            .xtx-clothes-goods .clothes-goods-hd li a {
+                padding: 2px 7px;
+                margin-right: 6px;
+            }
+            
+            .xtx-clothes-goods .clothes-goods-hd .tabs a:active {
+                background-color: #27ba9b;
+                color: #fff;
+            }
+            /* 服饰图片模 */
+            
+            .xtx-clothes-goods .clothes-goods-content {
+                height: 610px;
+                /* ps  */
+                /* background-color: skyblue; */
+            }
+            
+            .xtx-clothes-goods .clothes-goods-content .clothes-goods-pic {
+                width: 240px;
+                height: 610px;
+                /* ps */
+                /* background-color: pink; */
+            }
+            
+            .xtx-clothes-goods .clothes-goods-content .clothes-goods-list {
+                width: 1000px;
+                height: 610px;
+                /* ps */
+                /* background-color: orange; */
+            }
+            
+            .xtx-clothes-goods .clothes-goods-content .clothes-goods-list li {
+                position: relative;
+                float: left;
+                width: 242px;
+                height: 304px;
+                margin-left: 8px;
+                margin-bottom: 2px;
+                border: 2px solid transparent;
+                box-sizing: border-box;
+                /* background-color: red; */
+                overflow: hidden;
+            }
+            
+            .xtx-clothes-goods .clothes-goods-content .clothes-goods-list li:hover {
+                border-color: #27ba9b
+            }
+            
+            .xtx-clothes-goods .clothes-goods-content .clothes-goods-pic img {
+                width: 100%;
+                height: 100%;
+            }
+            
+            .xtx-clothes-goods .clothes-goods-content .img-box {
+                height: 204px;
+                text-align: center;
+            }
+            
+            .xtx-clothes-goods .clothes-goods-content .img-box img {
+                width: 184px;
+                height: 184px;
+            }
+            
+            .xtx-clothes-goods .clothes-goods-content .info {
+                padding-left: 29px;
+                margin-right: 47px;
+                line-height: 1.2;
+            }
+            
+            .xtx-clothes-goods .clothes-goods-content .info h3 {
+                font-size: 16px;
+                font-weight: 400;
+            }
+            
+            .xtx-clothes-goods .clothes-goods-content .info .type {
+                height: 28px;
+            }
+            
+            .xtx-clothes-goods .clothes-goods-content .info .price {
+                font-size: 22px;
+                color: #9a2e1f;
+            }
+            
+            .xtx-clothes-goods .clothes-goods-content .info span {
+                font-size: 17px;
+            }
+            
+            .xtx-clothes-goods .clothes-goods-content .clothes-goods-list .find {
+                position: absolute;
+                left: 0;
+                bottom: -84px;
+                width: 242px;
+                height: 84px;
+                background-color: #27ba9b;
+                line-height: 1;
+                text-align: center;
+                color: #fff;
+                transition: bottom .3s;
+            }
+            
+            .xtx-clothes-goods .clothes-goods-list li:hover .find {
+                bottom: 0;
+            }
+            
+            .xtx-clothes-goods .clothes-goods-content .find p:nth-child(1) {
+                width: 125px;
+                border-bottom: 1px solid #a9dbcc;
+                padding-bottom: 7px;
+                margin: 19px auto 0;
+                text-align: center;
+                font-size: 18px;
+            }
+            
+            .xtx-clothes-goods .clothes-goods-content .find p:nth-child(2) {
+                margin-top: 8px;
+                font-size: 13px;
+            }
+            /* 餐厨模块 */
+            /* 餐厨头部模块 */
+            
+            .xtx-kitchen-goods {
+                height: 706px;
+                /* background-color: pink; */
+            }
+            
+            .xtx-kitchen-goods .kitchen-goods-hd {
+                height: 96px;
+                line-height: 96px;
+                /* background-color: yellow; */
+            }
+            
+            .xtx-kitchen-goods .kitchen-goods-hd h2 {
+                float: left;
+                height: 96px;
+                font-size: 29px;
+                font-weight: 400;
+            }
+            
+            .xtx-kitchen-goods .kitchen-goods-hd .more {
+                float: right;
+            }
+            
+            .xtx-kitchen-goods .kitchen-goods-hd .more::after {
+                content: '';
+                display: inline-block;
+                width: 6px;
+                height: 11px;
+                margin-left: 13px;
+                /* ps */
+                /* background-color: red; */
+                background: url(../images/sprites.png) 0px -110px;
+            }
+            
+            .xtx-kitchen-goods .kitchen-goods-hd .tabs {
+                float: right;
+                margin-right: 52px;
+            }
+            
+            .xtx-kitchen-goods .kitchen-goods-hd li {
+                float: left;
+            }
+            
+            .xtx-kitchen-goods .kitchen-goods-hd li a {
+                padding: 2px 7px;
+                margin-right: 6px;
+            }
+            
+            .xtx-kitchen-goods .kitchen-goods-hd .tabs a:active {
+                background-color: #27ba9b;
+                color: #fff;
+            }
+            /* 服饰图片模 */
+            
+            .xtx-kitchen-goods .kitchen-goods-content {
+                height: 610px;
+                /* ps  */
+                /* background-color: skyblue; */
+            }
+            
+            .xtx-kitchen-goods .kitchen-goods-content .kitchen-goods-pic {
+                width: 240px;
+                height: 610px;
+                /* ps */
+                /* background-color: pink; */
+            }
+            
+            .xtx-kitchen-goods .kitchen-goods-content .kitchen-goods-list {
+                width: 1000px;
+                height: 610px;
+                /* ps */
+                /* background-color: orange; */
+            }
+            
+            .xtx-kitchen-goods .kitchen-goods-content .kitchen-goods-list li {
+                position: relative;
+                float: left;
+                width: 242px;
+                height: 304px;
+                margin-left: 8px;
+                margin-bottom: 2px;
+                border: 2px solid transparent;
+                box-sizing: border-box;
+                /* background-color: red; */
+                overflow: hidden;
+            }
+            /* .xtx-kitchen-goods .kitchen-goods-content .kitchen-goods-list li:hover {
+                                    border-color: #27ba9b
+                                } */
+            
+            .xtx-kitchen-goods .kitchen-goods-content .kitchen-goods-pic img {
+                width: 100%;
+                height: 100%;
+            }
+            
+            .xtx-kitchen-goods .kitchen-goods-content .img-box {
+                height: 204px;
+                text-align: center;
+            }
+            
+            .xtx-kitchen-goods .kitchen-goods-content .img-box img {
+                width: 184px;
+                height: 184px;
+            }
+            
+            .xtx-kitchen-goods .kitchen-goods-content .info {
+                padding-left: 29px;
+                margin-right: 47px;
+                line-height: 1.2;
+            }
+            
+            .xtx-kitchen-goods .kitchen-goods-content .info h3 {
+                font-size: 16px;
+                font-weight: 400;
+            }
+            
+            .xtx-kitchen-goods .kitchen-goods-content .info .type {
+                height: 28px;
+            }
+            
+            .xtx-kitchen-goods .kitchen-goods-content .info .price {
+                font-size: 22px;
+                color: #9a2e1f;
+            }
+            
+            .xtx-kitchen-goods .kitchen-goods-content .info span {
+                font-size: 17px;
+            }
+            /* .xtx-clothes-goods .clothes-goods-content .clothes-goods-list .find {
+                                        position: absolute;
+                                        left: 0;
+                                        bottom: -84px;
+                                        width: 242px;
+                                        height: 84px;
+                                        background-color: #27ba9b;
+                                        line-height: 1;
+                                        text-align: center;
+                                        color: #fff;
+                                        transition: bottom .3s;
+                                    }
+                                    
+                                    .xtx-kitchen-goods .kitchen-goods-list li:hover .find {
+                                        bottom: 0;
+                                    }
+                                
+                                .xtx-kitchen-goods .kitchen-goods-content .find p:nth-child(1) {
+                                    width: 125px;
+                                    border-bottom: 1px solid #a9dbcc;
+                                    padding-bottom: 7px;
+                                    margin: 19px auto 0;
+                                    text-align: center;
+                                    font-size: 18px;
+                                }
+                                
+                                .xtx-kitchen-goods .kitchen-goods-content .find p:nth-child(2) {
+                                    margin-top: 8px;
+                                    font-size: 13px;
+                                } */
+            /* 居家模块 */
+            /* 居家头部模块 */
+            
+            .xtx-home-goods {
+                height: 706px;
+                /* background-color: pink; */
+            }
+            
+            .xtx-home-goods .home-goods-hd {
+                height: 96px;
+                line-height: 96px;
+                /* background-color: yellow; */
+            }
+            
+            .xtx-home-goods .home-goods-hd h2 {
+                float: left;
+                height: 96px;
+                font-size: 29px;
+                font-weight: 400;
+            }
+            
+            .xtx-home-goods .home-goods-hd .more {
+                float: right;
+            }
+            
+            .xtx-home-goods .home-goods-hd .more::after {
+                content: '';
+                display: inline-block;
+                width: 6px;
+                height: 11px;
+                margin-left: 13px;
+                /* ps */
+                /* background-color: red; */
+                background: url(../images/sprites.png) 0px -110px;
+            }
+            
+            .xtx-home-goods .home-goods-hd .tabs {
+                float: right;
+                margin-right: 52px;
+            }
+            
+            .xtx-home-goods .home-goods-hd li {
+                float: left;
+            }
+            
+            .xtx-home-goods .home-goods-hd li a {
+                padding: 2px 7px;
+                margin-right: 6px;
+            }
+            
+            .xtx-home-goods .home-goods-hd .tabs a:active {
+                background-color: #27ba9b;
+                color: #fff;
+            }
+            /* 服饰图片模 */
+            
+            .xtx-home-goods .home-goods-content {
+                height: 610px;
+                /* ps  */
+                /* background-color: skyblue; */
+            }
+            
+            .xtx-home-goods .home-goods-content .home-goods-pic {
+                width: 240px;
+                height: 610px;
+                /* ps */
+                /* background-color: pink; */
+            }
+            
+            .xtx-home-goods .home-goods-content .home-goods-list {
+                width: 1000px;
+                height: 610px;
+                /* ps */
+                /* background-color: orange; */
+            }
+            
+            .xtx-home-goods .home-goods-content .home-goods-list li {
+                position: relative;
+                float: left;
+                width: 242px;
+                height: 304px;
+                margin-left: 8px;
+                margin-bottom: 2px;
+                border: 2px solid transparent;
+                box-sizing: border-box;
+                /* background-color: red; */
+                overflow: hidden;
+            }
+            /* .xtx-kitchen-goods .kitchen-goods-content .kitchen-goods-list li:hover {
+                                    border-color: #27ba9b
+                                } */
+            
+            .xtx-home-goods .home-goods-content .home-goods-pic img {
+                width: 100%;
+                height: 100%;
+            }
+            
+            .xtx-home-goods .home-goods-content .img-box {
+                height: 204px;
+                text-align: center;
+            }
+            
+            .xtx-home-goods .home-goods-content .img-box img {
+                width: 184px;
+                height: 184px;
+            }
+            
+            .xtx-home-goods .home-goods-content .info {
+                padding-left: 29px;
+                margin-right: 47px;
+                line-height: 1.2;
+            }
+            
+            .xtx-home-goods .home-goods-content .info h3 {
+                font-size: 16px;
+                font-weight: 400;
+            }
+            
+            .xtx-home-goods .home-goods-content .info .type {
+                height: 28px;
+            }
+            
+            .xtx-home-goods .home-goods-content .info .price {
+                font-size: 22px;
+                color: #9a2e1f;
+            }
+            
+            .xtx-home-goods .home-goods-content .info span {
+                font-size: 17px;
+            }
+            /* 最新专题 */
+            
+            .xtx-topic-goods {
+                height: 512px;
+                margin-top: 53px;
+                background-color: #f5f5f5;
+            }
+            
+            .topic-goods .container {
+                height: 512px;
+                /* ps */
+                /* background-color: skyblue; */
+            }
+            
+            .xtx-topic-goods .topic-goods-hd {
+                height: 115px;
+                line-height: 115px;
+                /* ps */
+                /* background-color: pink; */
+            }
+            
+            .xtx-topic-goods .topic-goods-hd h2 {
+                float: left;
+                height: 115px;
+                font-weight: 400;
+                font-size: 29px;
+            }
+            
+            .xtx-topic-goods .topic-goods-hd .more {
+                float: right;
+                color: #999;
+            }
+            
+            .xtx-topic-goods .topic-goods-hd .more::after {
+                content: '';
+                display: inline-block;
+                width: 6px;
+                height: 11px;
+                margin-left: 13px;
+                /* ps */
+                background: url('../images/sprites.png') 0px -111px;
+                /* background: green; */
+            }
+            
+            .xtx-topic-goods .topic-goods-list li {
+                float: left;
+                width: 404px;
+                height: 356px;
+                margin-right: 14px;
+                /* background-color: red; */
+            }
+            
+            .xtx-topic-goods .topic-goods-list li:last-child {
+                margin-right: 0px;
+            }
+            
+            .xtx-topic-goods .topic-goods-list li:nth-child(1) .box {
+                position: relative;
+                width: 404px;
+                height: 288px;
+                /* ps */
+                /* background-color: green; */
+                background: url(../uploads/topic_goods_1.jpg);
+                background-size: 100% 100%;
+            }
+            
+            .xtx-topic-goods .topic-goods-list li:nth-child(2) .box {
+                position: relative;
+                width: 404px;
+                height: 288px;
+                /* ps */
+                /* background-color: green; */
+                background: url(../uploads/topic_goods_2.jpg);
+                background-size: 100% 100%;
+            }
+            
+            .xtx-topic-goods .topic-goods-list li:nth-child(3) .box {
+                position: relative;
+                width: 404px;
+                height: 288px;
+                /* ps */
+                /* background-color: yellow; */
+                background: url(../uploads/topic_goods_3.jpg);
+                background-size: 100% 100%;
+            }
+            
+            .xtx-topic-goods .topic-goods-list .box::before {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background-image: linear-gradient(to top, rgba(0, 0, 0, .8), transparent 50%);
+            }
+            
+            .xtx-topic-goods .topic-goods-list .info {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 67px;
+                padding-left: 14px;
+                /* background-color: yellow; */
+            }
+            
+            .xtx-topic-goods .topic-goods-list .info h3 {
+                height: 33px;
+                color: #fff;
+                font-weight: 400;
+            }
+            
+            .xtx-topic-goods .topic-goods-list .info .type {
+                color: #999;
+            }
+            
+            .xtx-topic-goods .topic-goods-list .info .price {
+                position: absolute;
+                top: 12px;
+                left: 302px;
+                width: 81px;
+                height: 27px;
+                background-color: #fff;
+                text-align: center;
+                line-height: 27px;
+                color: #9a2e1f;
+            }
+            
+            .xtx-topic-goods .social {
+                height: 67px;
+                /* ps */
+                background-color: #fff;
+                font-size: 14px;
+                line-height: 67px;
+            }
+            
+            .xtx-topic-goods .social span:nth-child(1) {
+                margin-left: 17px;
+            }
+            
+            .xtx-topic-goods .social span:nth-child(2) {
+                margin-left: 24px;
+            }
+            
+            .xtx-topic-goods .social span:nth-child(3) {
+                float: right;
+                margin-right: 18px;
+            }
+            
+            .xtx-topic-goods .social span::before {
+                content: '';
+                display: inline-block;
+                width: 16px;
+                height: 16px;
+                background: url('../images/sprites.png');
+                vertical-align: middle;
+            }
+            
+            .xtx-topic-goods .social span:nth-child(1)::before {
+                background-position: -119px -109px;
+            }
+            
+            .xtx-topic-goods .social span:nth-child(2)::before {
+                background-position: -159px -109px;
+            }
+            
+            .xtx-topic-goods .social span:nth-child(3)::before {
+                background-position: -199px -109px;
+            }
+            /* 联系方式模块：xtx-category */
+            
+            .xtx-contact {
+                height: 302px;
+            }
+            
+            .xtx-contact .container {
+                height: 302px;
+                padding-top: 70px;
+                box-sizing: border-box;
+                /* background-color: pink; */
+            }
+            
+            .xtx-contact .container dl {
+                float: left;
+                width: 25%;
+                height: 192px;
+                text-align: center;
+                /* ps */
+                /* background-color: yellow; */
+            }
+            
+            .xtx-contact .container dt {
+                height: 51px;
+                margin-top: 8px;
+                color: #999;
+            }
+            
+            .xtx-contact .container dd {
+                display: inline-block;
+                border: 1px solid #eee;
+            }
+            /* 客户服务部分 */
+            
+            .xtx-contact .customer dd {
+                width: 93px;
+                height: 92px;
+                /* ps */
+                /* background-color: green; */
+                border: 1px solid #eee;
+                font-size: 14px;
+                cursor: pointer;
+            }
+            
+            .xtx-contact .customer .chat {
+                margin-right: 6px;
+            }
+            
+            .xtx-contact .customer .chat::before {
+                content: '';
+                display: block;
+                width: 29px;
+                height: 27px;
+                background-color: red;
+                margin: 22px auto 10px;
+                background: url(../images/sprites.png) -205px -70px;
+            }
+            
+            .xtx-contact .customer .chat:hover::before {
+                background-position: -250px -70px;
+            }
+            
+            .xtx-contact .customer .feedback::before {
+                content: '';
+                display: block;
+                width: 29px;
+                height: 27px;
+                background-color: red;
+                margin: 22px auto 10px;
+                background: url('../images/sprites.png') -300px -70px;
+            }
+            
+            .xtx-contact .customer .feedback:hover:before {
+                background-position: -350px -70px;
+            }
+            /* 关注我们 */
+            
+            .xtx-contact .follow dd {
+                width: 93px;
+                height: 92px;
+                color: #999;
+                font-size: 14px;
+                cursor: pointer;
+            }
+            
+            .xtx-contact .follow .weixin {
+                margin-right: 6px;
+            }
+            
+            .xtx-contact .follow .weixin::before {
+                content: '';
+                display: block;
+                width: 36px;
+                height: 29px;
+                background-color: red;
+                margin: 23px auto 8px;
+                background: url('../images/sprites.png') -204px -14px;
+            }
+            
+            .xtx-contact .follow .weixin:hover:before {
+                background-position: -249px -14px;
+            }
+            
+            .xtx-contact .follow .weibo::before {
+                content: '';
+                display: block;
+                width: 36px;
+                height: 29px;
+                margin: 23px auto 8px;
+                background: url('../images/sprites.png') -299px -14px;
+            }
+            
+            .xtx-contact .follow .weibo:hover::before {
+                background-position: -349px -14px;
+            }
+            /* 下载APP部分 */
+            /* .xtx-contact .download {
+                border-right: 1px solid #f4f4f4;
+              } */
+              
+              .xtx-contact .download .qrcode {
+                width: 116px;
+                height: 116px;
+                border: 1px solid #eeeeee;
+                padding: 7px;
+                margin-right: 22px;
+                /* 自动内减 */
+                box-sizing: border-box;
+              }
+              
+              .xtx-contact .qrcode img {
+                width: 100%;
+                height: 100%;
+              }
+              .xtx-contact .info {
+                font-size: 14px;
+                color: #999999;
+                text-align: left;
+              }
+              
+              .xtx-contact .info p:nth-child(1) {
+                height: 22px;
+                margin-top: 13px;
+              }
+              
+              .xtx-contact .info p:nth-child(2) {
+                height: 33px;
+              } 
+              
+              .xtx-contact .info a {
+                display: block;
+                width: 103px;
+                height: 32px;
+                background-color: #27ba9b;
+                color: #fff;
+                font-size: 14px;
+                text-align: center;
+                line-height: 32px;
+              }
+              
+              /* ----------------------服务热线 */
+              .xtx-contact .tel dt {
+                height: 74px;
+              }
+              
+              .xtx-contact .hotline p:nth-child(1) {
+                height: 34px;
+                font-size: 22px;
+                color: #666666;
+              }
+              
+              .xtx-contact .hotline p:nth-child(2) {
+                color: #999999;
+                font-size: 14px;
+              }
+              
+              /* ---------------------------xtx-service的样式 */
+              .xtx-service {
+                height: 172px;
+                background-color: #333;
+              }
+              
+              .xtx-service .container {
+                height: 171px;
+                border-bottom: 1px solid #434343;
+              }
+              
+              .xtx-service .container a {
+                float: left;
+                width: 33.33%;
+                height: 171px;
+                /* ps */
+                /* background-color: skyblue; */
+                color: #fff;
+                font-size: 28px;
+                text-align: center;
+                line-height: 171px;
+              }
+              
+              .xtx-service .container a::before {
+                content: '';
+                display: inline-block;
+                vertical-align: middle;
+                width: 58px;
+                height: 58px;
+                margin-right: 19px;
+                /* ps */
+                /* background-color: red; */
+                background: url('../images/sprites.png') 0 0;
+              }
+              
+              .xtx-service a:nth-child(2):before {
+                background-position: -131px 0;
+              }
+              
+              .xtx-service a:nth-child(3):before {
+                background-position: -65px 0;
+              }

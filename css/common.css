@@ -1,0 +1,234 @@
+    /* 版心公共类 */
+    
+    .container {
+        width: 1240px;
+        margin: 0 auto;
+    }
+    /* 快捷菜单模块;.xtx-shortcut */
+    
+    .xtx-shortcut {
+        height: 52px;
+        background-color: #333;
+    }
+    
+    .xtx-shortcut .container {
+        height: 52px;
+        /* ps */
+        /* background-color: skyblue; */
+    }
+    
+    .xtx-shortcut ul li {
+        float: left;
+        line-height: 52px;
+    }
+    
+    .xtx-shortcut ul a {
+        margin: 0 16px;
+        font-size: 14px;
+        color: #dcdcdc;
+    }
+    
+    .xtx-shortcut ul li:last-child a {
+        margin-right: 0;
+    }
+    
+    .xtx-shortcut ul li:last-child a::before {
+        content: '';
+        display: inline-block;
+        width: 11px;
+        height: 16px;
+        margin-right: 8px;
+        /* ps */
+        /* background-color: yellow; */
+        vertical-align: middle;
+        background: url(../images/sprites.png) -160px -70px;
+    }
+    /* 主导航模块：xtx-main-nav */
+    
+    .xtx-main-nav {
+        height: 130px;
+        padding-top: 30px;
+        /*******************/
+        /* ps */
+        /* background-color: yellow; */
+        box-sizing: border-box;
+    }
+    /* logo模块 */
+    
+    .xtx-main-nav .logo {
+        width: 207px;
+        height: 70px;
+        /* ps */
+        /* background-color: pink; */
+        margin-left: 25px;
+    }
+    
+    .xtx-main-nav .logo a {
+        background: url(../images/logo.png);
+        display: block;
+        height: 70px;
+        background-size: 100% 100%;
+        font-size: 0;
+    }
+    /* 导航模块 */
+    
+    .xtx-main-nav nav {
+        margin-left: 40px;
+    }
+    
+    .xtx-main-nav nav li {
+        float: left;
+        line-height: 70px;
+        margin-right: 48px;
+    }
+    
+    .xtx-main-nav nav li a {
+        font-size: 16px;
+        color: #333;
+    }
+    
+    .xtx-main-nav nav li a:hover {
+        border-bottom: 1px solid #27ba9b;
+        padding-bottom: 7px;
+        color: #27ba9b;
+    }
+    /* 搜索模块 */
+    
+    .xtx-main-nav .search {
+        position: relative;
+        width: 172px;
+        height: 30px;
+        margin-top: 24px;
+        margin-left: 34px;
+        background-color: pink;
+    }
+    
+    .xtx-main-nav .search input {
+        width: 172px;
+        height: 30px;
+        padding-left: 29px;
+        border-bottom: 1px solid #e7e7e7;
+    }
+    
+    .xtx-main-nav .search::before {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 18px;
+        height: 18px;
+        top: 5px;
+        left: 2px;
+        background: url(../images/sprites.png) -79px -70px;
+        /* ps */
+        /* background-color: blue; */
+    }
+    /* 购物车模块 */
+    
+    .xtx-main-nav .cart {
+        position: relative;
+        width: 23px;
+        height: 23px;
+        margin-top: 28px;
+        margin-left: 15px;
+        /* ps */
+        background: #000;
+        background: url(../images/sprites.png) -120px -70px;
+    }
+    
+    .xtx-main-nav .cart span {
+        position: absolute;
+        display: block;
+        width: 20px;
+        height: 15px;
+        border-radius: 8px;
+        left: 15px;
+        bottom: 13px;
+        color: #fff;
+        text-align: center;
+        line-height: 15px;
+        font-size: 13px;
+        background-color: #ff0000;
+    }
+    /* 宣传服务模块： xtx-service*/
+    
+    .xtx-service {
+        height: 174px;
+        background-color: #333;
+    }
+    
+    .xtx-service .container {
+        width: 1393px;
+        height: 173px;
+        border-bottom: 3px solid #999;
+        box-sizing: border-box;
+    }
+    
+    .xtx-service .container a {
+        float: left;
+        width: 33.33%;
+        color: #fff;
+        line-height: 173px;
+        text-align: center;
+        font-size: 28px;
+        /* ps */
+        /* background-color: skyblue; */
+    }
+    
+    .xtx-service .container a::before {
+        content: '';
+        display: inline-block;
+        width: 58px;
+        height: 58px;
+        /* ps */
+        margin-right: 19px;
+        vertical-align: middle;
+        background-color: red;
+        background: url(../images/sprites.png) 0px 0px;
+    }
+    
+    .xtx-service .container a:nth-child(2)::before {
+        content: '';
+        display: inline-block;
+        width: 58px;
+        height: 58px;
+        margin-right: 19px;
+        vertical-align: middle;
+        background: url(../images/sprites.png) -129px 0px;
+    }
+    
+    .xtx-service .container a:nth-child(3)::before {
+        content: '';
+        display: inline-block;
+        width: 58px;
+        height: 58px;
+        margin-right: 19px;
+        vertical-align: middle;
+        background: url(../images/sprites.png) -65px 0;
+    }
+    /* 版权信息模块：xtx-copyright */
+    
+    .xtx-copyright {
+        height: 168px;
+        background-color: #333;
+    }
+    
+    .xtx-copyright .container {
+        height: 168px;
+        padding-top: 41px;
+        /* ps  */
+        /* background-color: pink; */
+        box-sizing: border-box;
+        padding-left: 169px;
+        color: #949494;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    .xtx-copyright .container a {
+        padding: 12px;
+        color: #949494;
+    }
+    
+    .xtx-copyright .container p:nth-child(1) {
+        margin-bottom: 20px;
+    }
